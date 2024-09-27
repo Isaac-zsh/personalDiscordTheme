@@ -1,7 +1,7 @@
 /**
  * @name Isaac's Temp Theme
  * @author Isaac-zsh
- * @version 0.1.1
+ * @version 0.1.2
  * @description just a theme I'm currently working on for fun! ^^ 
  * @source https://github.com/Isaac-zsh/personalDiscordTheme
  * @updateUrl https://raw.githubusercontent.com/Isaac-zsh/personalDiscordTheme/main/personal.theme.css
@@ -522,7 +522,7 @@ div[aria-label="Servers"] > .listItem_c96c45:has(div:nth-child(1) > span) > div:
   display: none;
 }
 
-.avatar_b2ca13[aria-label*="Online"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Online"]), .avatar_a7d72e[aria-label*="Online"] > svg > foreignObject, .avatar_f3939d[aria-label*="Online"], .member_cbd271:has(div > div > div[aria-label*="Online"]) > div:first-child > div:first-child,.interactive_f5eb4b:has(a > div > div > div[aria-label*="Online"]) {
+.wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-online)"]), .avatar_b2ca13[aria-label*="Online"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Online"]), .avatar_a7d72e[aria-label*="Online"] > svg > foreignObject, .avatar_f3939d[aria-label*="Online"], .member_cbd271:has(div > div > div[aria-label*="Online"]) > div:first-child > div:first-child,.interactive_f5eb4b:has(a > div > div > div[aria-label*="Online"]) {
   -webkit-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
@@ -532,7 +532,7 @@ div[aria-label="Servers"] > .listItem_c96c45:has(div:nth-child(1) > span) > div:
   border-radius: 1000px;
 }
 
-.avatar_b2ca13[aria-label*="Idle"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Idle"]), .avatar_a7d72e[aria-label*="Idle"] > svg > foreignObject, .avatar_f3939d[aria-label*="Idle"], .member_cbd271:has(div > div > div[aria-label*="Idle"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Idle"]) {
+.wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-idle)"]), .avatar_b2ca13[aria-label*="Idle"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Idle"]), .avatar_a7d72e[aria-label*="Idle"] > svg > foreignObject, .avatar_f3939d[aria-label*="Idle"], .member_cbd271:has(div > div > div[aria-label*="Idle"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Idle"]) {
   -webkit-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
@@ -542,7 +542,7 @@ div[aria-label="Servers"] > .listItem_c96c45:has(div:nth-child(1) > span) > div:
   border-radius: 1000px;
 }
 
-.avatar_b2ca13[aria-label*="Offline"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Offline"]), .avatar_a7d72e[aria-label*="Offline"] > svg > foreignObject, .avatar_f3939d[aria-label*="Offline"], .member_cbd271:has(div > div > div[aria-label*="Offline"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Offline"]) {
+.wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-offline)"]), .avatar_b2ca13[aria-label*="Offline"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Offline"]), .avatar_a7d72e[aria-label*="Offline"] > svg > foreignObject, .avatar_f3939d[aria-label*="Offline"], .member_cbd271:has(div > div > div[aria-label*="Offline"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Offline"]) {
   -webkit-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
@@ -552,7 +552,7 @@ div[aria-label="Servers"] > .listItem_c96c45:has(div:nth-child(1) > span) > div:
   border-radius: 1000px;
 }
 
-.avatar_b2ca13[aria-label*="Do Not Disturb"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Do Not Disturb"]), .avatar_a7d72e[aria-label*="Do Not Disturb"] > svg > foreignObject, .avatar_f3939d[aria-label*="Do Not Disturb"], .member_cbd271:has(div > div > div[aria-label*="Do Not Disturb"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Do Not Disturb"]) {
+.wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-dnd)"]), .avatar_b2ca13[aria-label*="Do Not Disturb"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Do Not Disturb"]), .avatar_a7d72e[aria-label*="Do Not Disturb"] > svg > foreignObject, .avatar_f3939d[aria-label*="Do Not Disturb"], .member_cbd271:has(div > div > div[aria-label*="Do Not Disturb"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Do Not Disturb"]) {
   -webkit-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
@@ -675,7 +675,24 @@ div[aria-label="Servers"] > .listItem_c96c45:has(div:nth-child(1) > span) > div:
   border-radius: var(--border-radius-first) !important;
 }
 
-.activityPanel_a4d4d9 {
+.activityPanel_a4d4d9, .header_c6ee36 {
   border-top-left-radius: var(--border-radius-first);
   border-top-right-radius: var(--border-radius-first);
+}
+
+.emojiPicker_c6ee36 {
+  border-bottom-left-radius: var(--border-radius-first);
+  border-bottom-right-radius: var(--border-radius-first);
+}
+
+.categoryList_c6ee36 {
+  border-bottom-left-radius: var(--border-radius-first);
+}
+
+.wrapper_c6ee36.isBurstReactionPicker_c6ee36 {
+  border-radius: var(--border-radius-first);
+}
+
+.imageContainer_fa854f, .reaction_ec6b19, .reactionBtn_ec6b19.forceShowLook_ec6b19, .wrapper_c6ee36 {
+  border-radius: 1000px;
 }
