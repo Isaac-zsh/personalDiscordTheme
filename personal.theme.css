@@ -522,7 +522,7 @@ div[aria-label="Servers"] > .listItem_c96c45:has(div:nth-child(1) > span) > div:
   display: none;
 }
 
-.wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-online)"]), .avatar_b2ca13[aria-label*="Online"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Online"]), .avatar_a7d72e[aria-label*="Online"] > svg > foreignObject, .avatar_f3939d[aria-label*="Online"], .member_cbd271:has(div > div > div[aria-label*="Online"]) > div:first-child > div:first-child,.interactive_f5eb4b:has(a > div > div > div[aria-label*="Online"]) {
+.autocompleteAttached_bea0d0 .wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-online)"]), .avatar_b2ca13[aria-label*="Online"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Online"]), .avatar_a7d72e[aria-label*="Online"] > svg > foreignObject, .avatar_f3939d[aria-label*="Online"], .member_cbd271:has(div > div > div[aria-label*="Online"]) > div:first-child > div:first-child,.interactive_f5eb4b:has(a > div > div > div[aria-label*="Online"]) {
   -webkit-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
@@ -532,7 +532,7 @@ div[aria-label="Servers"] > .listItem_c96c45:has(div:nth-child(1) > span) > div:
   border-radius: 1000px;
 }
 
-.wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-idle)"]), .avatar_b2ca13[aria-label*="Idle"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Idle"]), .avatar_a7d72e[aria-label*="Idle"] > svg > foreignObject, .avatar_f3939d[aria-label*="Idle"], .member_cbd271:has(div > div > div[aria-label*="Idle"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Idle"]) {
+.autocompleteAttached_bea0d0 .wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-idle)"]), .avatar_b2ca13[aria-label*="Idle"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Idle"]), .avatar_a7d72e[aria-label*="Idle"] > svg > foreignObject, .avatar_f3939d[aria-label*="Idle"], .member_cbd271:has(div > div > div[aria-label*="Idle"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Idle"]) {
   -webkit-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
@@ -542,7 +542,7 @@ div[aria-label="Servers"] > .listItem_c96c45:has(div:nth-child(1) > span) > div:
   border-radius: 1000px;
 }
 
-.wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-offline)"]), .avatar_b2ca13[aria-label*="Offline"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Offline"]), .avatar_a7d72e[aria-label*="Offline"] > svg > foreignObject, .avatar_f3939d[aria-label*="Offline"], .member_cbd271:has(div > div > div[aria-label*="Offline"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Offline"]) {
+.autocompleteAttached_bea0d0 .wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-offline)"]), .avatar_b2ca13[aria-label*="Offline"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Offline"]), .avatar_a7d72e[aria-label*="Offline"] > svg > foreignObject, .avatar_f3939d[aria-label*="Offline"], .member_cbd271:has(div > div > div[aria-label*="Offline"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Offline"]) {
   -webkit-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
@@ -552,7 +552,7 @@ div[aria-label="Servers"] > .listItem_c96c45:has(div:nth-child(1) > span) > div:
   border-radius: 1000px;
 }
 
-.wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-dnd)"]), .avatar_b2ca13[aria-label*="Do Not Disturb"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Do Not Disturb"]), .avatar_a7d72e[aria-label*="Do Not Disturb"] > svg > foreignObject, .avatar_f3939d[aria-label*="Do Not Disturb"], .member_cbd271:has(div > div > div[aria-label*="Do Not Disturb"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Do Not Disturb"]) {
+.autocompleteAttached_bea0d0 .wrapper_c51b4e:has(svg > rect[mask="url(#svg-mask-status-dnd)"]), .avatar_b2ca13[aria-label*="Do Not Disturb"], .avatar_f94206:has(.wrapper_c51b4e[aria-label*="Do Not Disturb"]), .avatar_a7d72e[aria-label*="Do Not Disturb"] > svg > foreignObject, .avatar_f3939d[aria-label*="Do Not Disturb"], .member_cbd271:has(div > div > div[aria-label*="Do Not Disturb"]) > div:first-child > div:first-child, .interactive_f5eb4b:has(a > div > div > div[aria-label*="Do Not Disturb"]) {
   -webkit-transition: background-color 250ms linear;
   -ms-transition: background-color 250ms linear;
   transition: background-color 250ms linear;
